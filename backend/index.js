@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: process.env.REACT_DEV_URL,
+  origin: "http://localhost:5173",
   methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
 
