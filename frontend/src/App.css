@@ -1,0 +1,21 @@
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0;
+  /* border: 1px solid teal; */
+  /* text-align: center; */
+}
+
+.sections{
+  width: 80%;
+  padding: 0;
+  margin: 0 auto;
+  min-height: calc(100vh - 70px);
+}
+
+.sections *{
+  /* height: 80vh; */
+  margin-top: 5px;
+  /* min-height: calc(100vh - 70px); */
+}
