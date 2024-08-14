@@ -19,12 +19,10 @@
 }
 
 .right {
-  /* width: 50%; */
   flex: 0.5;
   height: 100%;
   display: flex;
   align-items: center;
-  /* border: 1px solid rgb(89, 0, 255); */
 }
 
 .left h1 {
@@ -34,7 +32,6 @@
   padding: 0;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: orange;
-  /* border: 1px solid rgb(89, 0, 255); */
 }
 
 .left p {
@@ -71,7 +68,6 @@
     text-align: center;
   }
 
-  /* fix this!!! */
   .left h1{
     font-size: 3.0em;
   }
