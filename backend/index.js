@@ -16,10 +16,12 @@ app.use(cors({
 connectDB();
 
 app.get("/", (req, res) => {
-  res.send("server running");
+  res.send("server running...");
 });
 
 app.use("/projects", projectRoutes)
+
+
 
 
 app.listen(process.env.PORT || 3000, () => {
