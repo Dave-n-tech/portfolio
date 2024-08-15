@@ -11,7 +11,7 @@ export const ProjectCard = ({ name, url, thumbnail, languages, description }) =>
       <p className="card-description">
         {description}
       </p>
-      <p className="card-description">Languages: {languages.join(", ")}</p>
+      <p className="language">Languages: {languages.join(", ")}</p>
       <a href={url}>
         {url && <button className="view-btn"> view </button>}
       </a>
