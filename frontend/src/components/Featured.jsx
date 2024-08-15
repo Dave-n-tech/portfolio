@@ -38,6 +38,7 @@ export const Featured = () => {
                 url={project.url}
                 thumbnail={project.thumbnail}
                 languages={project.languages}
+                description={project.description}
               />
             );
           })

@@ -9,12 +9,11 @@ export const ProjectCard = ({ name, url, thumbnail, languages }) => {
       <h1 className="card-title title">{name}</h1>
 
       <p className="card-description">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut tenetur
-        laboriosam assumenda totam, facilis repellendus, aliquid placeat dolore
+        {description}
       </p>
-      <p>Languages: {languages.join(" ")}</p>
+      <p className="card-description">Languages: {languages.join(", ")}</p>
       <a href={url}>
-        <button className="view-btn"> view </button>
+        {url && <button className="view-btn"> view </button>}
       </a>
     </div>
   );
