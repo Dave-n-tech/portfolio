@@ -17,6 +17,7 @@ export const Contact = () => {
       .then((result) => {
         console.log("SUCCESS!", result);
         alert("email sent successfully");
+        form.current.reset();
       })
       .catch((error) => {
         console.log("FAILED...", error);
@@ -49,7 +50,7 @@ export const Contact = () => {
       <div className="contact-form" >
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" placeholder="Name" name="from_name" />
-          <input type="email" placeholder="Email" name="user_email" />
+          <input type="email" placeholder="Email" name="reply_to" />
           <textarea id="message" name="message" cols="40" rows="10"></textarea>
           <button className="contact-btn" type="submit">
             Submit
