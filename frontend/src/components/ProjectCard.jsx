@@ -1,7 +1,7 @@
 import React from "react";
 import "./projectcard.css";
 
-export const ProjectCard = ({ name, url, thumbnail, languages }) => {
+export const ProjectCard = ({ name, url, thumbnail, languages, description }) => {
 
   return (
     <div className="card">
