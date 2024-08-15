@@ -37,6 +37,7 @@ export const Featured = () => {
                 name={project.name}
                 url={project.url}
                 thumbnail={project.thumbnail}
+                languages={project.languages}
               />
             );
           })

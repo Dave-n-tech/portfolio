@@ -1,7 +1,8 @@
 import React from "react";
 import "./projectcard.css";
 
-export const ProjectCard = ({ name, url, thumbnail }) => {
+export const ProjectCard = ({ name, url, thumbnail, languages }) => {
+
   return (
     <div className="card">
       <img className="card-image" src={thumbnail} alt={name} />
@@ -11,6 +12,7 @@ export const ProjectCard = ({ name, url, thumbnail }) => {
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut tenetur
         laboriosam assumenda totam, facilis repellendus, aliquid placeat dolore
       </p>
+      <p>Languages: {languages.join(" ")}</p>
       <a href={url}>
         <button className="view-btn"> view </button>
       </a>
