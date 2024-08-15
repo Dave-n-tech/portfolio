@@ -1,9 +1,7 @@
 import React from "react";
 import "./Contact.css";
-import discordIcon from "../assets/Group 6.png";
-import facebookIcon from "../assets/Group 7.png";
 import githubIcon from "../assets/Group 8.png";
-import InstagramIcon from "../assets/Group 9.png"
+import LinkedinIcon from "../assets/linkedin.png"
 
 export const Contact = () => {
   return (
@@ -16,10 +14,8 @@ export const Contact = () => {
           crafting visually captivating and seamlessly functional websites.
         </p>
         <div className="icons">
-          <img src={discordIcon} alt="discord-icon" className="icon-image" />
-          <img src={facebookIcon} alt="facebook-icon" className="icon-image" />
-          <img src={githubIcon} alt="github-icon" className="icon-image" />
-          <img src={InstagramIcon} alt="instagram-icon" className="icon-image" />
+          <a href="https://github.com/isiboreromoselejason"><img src={githubIcon} alt="github-icon" className="icon-image" /></a>
+          <a href="https://linkedin.com/in/isibor-eromosele"><img src={LinkedinIcon} alt="linkedin-icon" className="icon-image" /></a>
         </div>
       </div>
 
